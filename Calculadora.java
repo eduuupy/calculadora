@@ -1,8 +1,4 @@
-public class Calculadora {
-	private final int op1;
-	private final int op2;
+public static class Calculadora {
 
-	public Calculadora() {}
-
-	public int suma() {}
+	public static int suma(int op1, int op2) { return op1 + op2; }
 }
